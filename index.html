@@ -3,83 +3,91 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Clínica Vertebralis</title>
+    <title>Clínica Vertebralis – Coluna & Dor</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
 </head>
 
 <body class="bg-light">
 
-    <!-- Header -->
-    <header class="bg-primary text-white text-center py-5">
-        <h1 class="fw-bold">Clínica Vertebralis</h1>
-        <p class="lead">Cuidado, saúde e bem-estar para você</p>
-    </header>
-
-    <!-- Sobre a Empresa -->
-    <section class="container py-5">
-        <h2 class="mb-4 text-primary">Sobre a Empresa</h2>
-        <div class="card shadow-sm p-4">
-            <p><strong>Nome Empresarial:</strong> Clínica Vertebralis LTDA</p>
-            <p><strong>CNPJ:</strong> 24.889.710/0001-82</p>
-            <p><strong>Data de Abertura:</strong> 30/05/2016</p>
-            <p><strong>Porte:</strong> ME</p>
-            <p><strong>Situação Cadastral:</strong> Ativa</p>
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+    <div class="container">
+        <a class="navbar-brand fw-bold text-primary" href="index.html">Vertebralis</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="nav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
+                <li class="nav-item"><a class="nav-link" href="servicos.html">Serviços</a></li>
+                <li class="nav-item"><a class="nav-link" href="equipe.html">Equipe</a></li>
+                <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
+            </ul>
         </div>
-    </section>
+    </div>
+</nav>
 
-    <!-- Atividades -->
-    <section class="container py-5">
-        <h2 class="mb-4 text-primary">Atividades</h2>
+<!-- HERO -->
+<header class="text-white text-center d-flex align-items-center"
+        style="height: 90vh; background: url('https://images.unsplash.com/photo-1584467735871-1f3a9c6f5f2b') center/cover;">
+    <div class="container">
+        <h1 class="fw-bold display-4">Transformando Dores em Movimento</h1>
+        <p class="lead">Quiropraxia • Acupuntura • Pilates • Ozonioterapia • Recuperação Esportiva</p>
+        <a href="servicos.html" class="btn btn-primary btn-lg mt-3">Conheça nossos serviços</a>
+    </div>
+</header>
 
-        <div class="row">
-            <div class="col-md-6">
-                <div class="card shadow-sm p-4 mb-3">
-                    <h5 class="text-primary">Atividade Principal</h5>
-                    <p>86.50-0-04 — Atividades de fisioterapia</p>
+<!-- SOBRE -->
+<section class="container py-5">
+    <h2 class="text-primary mb-4">Sobre a Clínica</h2>
+    <p class="fs-5">
+        A Clínica Vertebralis oferece tratamentos especializados para coluna, dores musculares e bem-estar geral.
+        Nossa missão é transformar dores em movimento e qualidade de vida, unindo técnicas modernas e terapias integrativas.
+    </p>
+</section>
+
+<!-- SERVIÇOS EM DESTAQUE -->
+<section class="container py-5">
+    <h2 class="text-primary mb-4">Principais Serviços</h2>
+    <div class="row g-4">
+
+        <div class="col-md-4">
+            <div class="card shadow-sm">
+                <img src="https://images.unsplash.com/photo-1599058917212-d750089bc07e" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Quiropraxia</h5>
+                    <p>Alívio imediato de dores na coluna e articulações.</p>
                 </div>
             </div>
+        </div>
 
-            <div class="col-md-6">
-                <div class="card shadow-sm p-4 mb-3">
-                    <h5 class="text-primary">Atividades Secundárias</h5>
-                    <ul>
-                        <li>86.50-0-03 — Psicologia e psicanálise</li>
-                        <li>86.50-0-05 — Terapia ocupacional</li>
-                        <li>86.50-0-06 — Fonoaudiologia</li>
-                        <li>93.13-1-00 — Condicionamento físico</li>
-                        <li>96.02-5-02 — Estética e cuidados com a beleza</li>
-                    </ul>
+        <div class="col-md-4">
+            <div class="card shadow-sm">
+                <img src="https://images.unsplash.com/photo-1606813907291-26d1e6f7e5a1" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Acupuntura</h5>
+                    <p>Equilíbrio energético e redução de dores crônicas.</p>
                 </div>
             </div>
         </div>
-    </section>
 
-    <!-- Endereço -->
-    <section class="container py-5">
-        <h2 class="mb-4 text-primary">Endereço</h2>
-        <div class="card shadow-sm p-4">
-            <p><strong>Logradouro:</strong> Rua Cento e Trinta e Um</p>
-            <p><strong>Número:</strong> 381</p>
-            <p><strong>Complemento:</strong> Loja 01</p>
-            <p><strong>Bairro:</strong> Santa Maria</p>
-            <p><strong>Município:</strong> Timóteo — MG</p>
-            <p><strong>CEP:</strong> 35.180-142</p>
+        <div class="col-md-4">
+            <div class="card shadow-sm">
+                <img src="https://images.unsplash.com/photo-1599058917212-d750089bc07e" class="card-img-top">
+                <div class="card-body">
+                    <h5 class="card-title">Pilates</h5>
+                    <p>Fortalecimento, postura e mobilidade com segurança.</p>
+                </div>
+            </div>
         </div>
-    </section>
 
-    <!-- Contato -->
-    <section class="container py-5">
-        <h2 class="mb-4 text-primary">Contato</h2>
-        <div class="card shadow-sm p-4">
-            <p><strong>E-mail:</strong> clinicavertebralis@outlook.com</p>
-            <p><strong>Telefones:</strong> (31) 3848-1311 / (31) 8555-2327</p>
-        </div>
-    </section>
+    </div>
+</section>
 
-    <!-- Rodapé -->
-    <footer class="bg-primary text-white text-center py-3 mt-5">
-        <p class="mb-0">© Clínica Vertebralis — Todos os direitos reservados</p>
-    </footer>
+<!-- FOOTER -->
+<footer class="bg-primary text-white text-center py-3 mt-5">
+    © Clínica Vertebralis – Todos os direitos reservados
+</footer>
 
 </body>
 </html>
