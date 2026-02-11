@@ -3,22 +3,47 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Clínica Vertebralis – Coluna & Dor</title>
+    <title>Vertebralis – Coluna & Dor</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body { background-color: #f5f7fb; }
+        .navbar { background-color: #ffffff; }
+        .navbar-brand { color: #005b8f !important; }
+        .nav-link { color: #555 !important; }
+        .nav-link.active, .nav-link:hover { color: #005b8f !important; }
+        .btn-primary {
+            background-color: #00b8a9;
+            border-color: #00b8a9;
+        }
+        .btn-primary:hover {
+            background-color: #009688;
+            border-color: #009688;
+        }
+        .hero {
+            height: 90vh;
+            background: linear-gradient(rgba(0, 25, 51, 0.7), rgba(0, 25, 51, 0.7)),
+                        url('https://images.unsplash.com/photo-1584466977773-e625c37cdd50') center/cover;
+            color: #ffffff;
+        }
+        h1, h2, h3, h4, h5 { color: #005b8f; }
+        .card { border: none; border-radius: 12px; }
+        .card-img-top { border-top-left-radius: 12px; border-top-right-radius: 12px; }
+        footer { background-color: #005b8f; }
+    </style>
 </head>
 
-<body class="bg-light">
+<body>
 
 <!-- NAVBAR -->
-<nav class="navbar navbar-expand-lg navbar-light bg-white shadow-sm fixed-top">
+<nav class="navbar navbar-expand-lg shadow-sm fixed-top">
     <div class="container">
-        <a class="navbar-brand fw-bold text-primary" href="index.html">Vertebralis</a>
+        <a class="navbar-brand fw-bold" href="index.html">VERTEBRALIS</a>
         <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="nav">
             <ul class="navbar-nav ms-auto">
-                <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
+                <li class="nav-item"><a class="nav-link active" href="index.html">Início</a></li>
                 <li class="nav-item"><a class="nav-link" href="servicos.html">Serviços</a></li>
                 <li class="nav-item"><a class="nav-link" href="equipe.html">Equipe</a></li>
                 <li class="nav-item"><a class="nav-link" href="contato.html">Contato</a></li>
@@ -28,55 +53,71 @@
 </nav>
 
 <!-- HERO -->
-<header class="text-white text-center d-flex align-items-center"
-        style="height: 90vh; background: url('https://images.unsplash.com/photo-1584467735871-1f3a9c6f5f2b') center/cover;">
-    <div class="container">
-        <h1 class="fw-bold display-4">Transformando Dores em Movimento</h1>
-        <p class="lead">Quiropraxia • Acupuntura • Pilates • Ozonioterapia • Recuperação Esportiva</p>
-        <a href="servicos.html" class="btn btn-primary btn-lg mt-3">Conheça nossos serviços</a>
+<header class="hero d-flex align-items-center text-center">
+    <div class="container mt-5">
+        <p class="text-uppercase fw-semibold mb-2">Medicina e Saúde Integrativa</p>
+        <h1 class="fw-bold display-5 mb-3">Transformando Dores em Movimento e Bem-estar</h1>
+        <p class="lead mb-4">
+            Quiropraxia • Acupuntura • Pilates • Ozonioterapia • Recuperação Esportiva
+        </p>
+        <a href="servicos.html" class="btn btn-primary btn-lg me-2">Conheça nossos serviços</a>
+        <a href="contato.html" class="btn btn-outline-light btn-lg">Agende sua avaliação</a>
     </div>
 </header>
 
 <!-- SOBRE -->
 <section class="container py-5">
-    <h2 class="text-primary mb-4">Sobre a Clínica</h2>
-    <p class="fs-5">
-        A Clínica Vertebralis oferece tratamentos especializados para coluna, dores musculares e bem-estar geral.
-        Nossa missão é transformar dores em movimento e qualidade de vida, unindo técnicas modernas e terapias integrativas.
-    </p>
+    <div class="row align-items-center g-4">
+        <div class="col-md-6">
+            <h2 class="mb-3">Sobre a Vertebralis</h2>
+            <p class="fs-5">
+                A VERTEBRALIS – Coluna & Dor é uma clínica especializada em tratamentos para coluna,
+                dores musculares e bem-estar global. Unimos ciência, movimento e terapias integrativas
+                para devolver qualidade de vida aos nossos pacientes.
+            </p>
+            <p class="fs-6 text-muted">
+                CNPJ: 24.889.710/0001-82 • Desde 2016 em Timóteo – MG.
+            </p>
+        </div>
+        <div class="col-md-6">
+            <div class="card shadow-sm">
+                <img src="https://images.unsplash.com/photo-1584466977773-e625c37cdd50" class="card-img-top" alt="Atendimento clínico">
+            </div>
+        </div>
+    </div>
 </section>
 
 <!-- SERVIÇOS EM DESTAQUE -->
 <section class="container py-5">
-    <h2 class="text-primary mb-4">Principais Serviços</h2>
+    <h2 class="mb-4 text-center">Nossas Especialidades</h2>
     <div class="row g-4">
 
         <div class="col-md-4">
-            <div class="card shadow-sm">
-                <img src="https://images.unsplash.com/photo-1599058917212-d750089bc07e" class="card-img-top">
+            <div class="card shadow-sm h-100">
+                <img src="https://images.unsplash.com/photo-1594824476967-48c8b964273f" class="card-img-top" alt="Quiropraxia">
                 <div class="card-body">
                     <h5 class="card-title">Quiropraxia</h5>
-                    <p>Alívio imediato de dores na coluna e articulações.</p>
+                    <p class="card-text">Ajustes precisos para alívio de dores na coluna, pescoço e articulações.</p>
                 </div>
             </div>
         </div>
 
         <div class="col-md-4">
-            <div class="card shadow-sm">
-                <img src="https://images.unsplash.com/photo-1606813907291-26d1e6f7e5a1" class="card-img-top">
+            <div class="card shadow-sm h-100">
+                <img src="https://images.unsplash.com/photo-1606813907291-26d1e6f7e5a1" class="card-img-top" alt="Acupuntura">
                 <div class="card-body">
                     <h5 class="card-title">Acupuntura</h5>
-                    <p>Equilíbrio energético e redução de dores crônicas.</p>
+                    <p class="card-text">Terapia milenar para equilíbrio energético e controle de dores crônicas.</p>
                 </div>
             </div>
         </div>
 
         <div class="col-md-4">
-            <div class="card shadow-sm">
-                <img src="https://images.unsplash.com/photo-1599058917212-d750089bc07e" class="card-img-top">
+            <div class="card shadow-sm h-100">
+                <img src="https://images.unsplash.com/photo-1599058917212-d750089bc07e" class="card-img-top" alt="Pilates">
                 <div class="card-body">
                     <h5 class="card-title">Pilates</h5>
-                    <p>Fortalecimento, postura e mobilidade com segurança.</p>
+                    <p class="card-text">Fortalecimento, postura e mobilidade com foco em coluna e prevenção.</p>
                 </div>
             </div>
         </div>
@@ -84,10 +125,19 @@
     </div>
 </section>
 
-<!-- FOOTER -->
-<footer class="bg-primary text-white text-center py-3 mt-5">
-    © Clínica Vertebralis – Todos os direitos reservados
+<!-- CTA -->
+<section class="py-5" style="background-color:#e3f6f4;">
+    <div class="container text-center">
+        <h2 class="mb-3">Pronto para dar o próximo passo?</h2>
+        <p class="fs-5 mb-4">Agende uma avaliação e comece sua jornada de volta ao movimento e bem-estar.</p>
+        <a href="contato.html" class="btn btn-primary btn-lg">Agendar agora</a>
+    </div>
+</section>
+
+<footer class="text-white text-center py-3 mt-0">
+    © Clínica Vertebralis – Coluna & Dor • Todos os direitos reservados
 </footer>
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
