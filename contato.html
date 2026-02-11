@@ -3,15 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Contato – Clínica Vertebralis</title>
+    <title>Contato – Vertebralis</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        body { background-color: #f5f7fb; }
+        .navbar { background-color: #ffffff; }
+        .navbar-brand { color: #005b8f !important; }
+        .nav-link { color: #555 !important; }
+        .nav-link.active, .nav-link:hover { color: #005b8f !important; }
+        h1, h2, h3, h4, h5 { color: #005b8f; }
+        footer { background-color: #005b8f; }
+        .card { border-radius: 12px; border: none; }
+    </style>
 </head>
 
-<body class="bg-light">
+<body>
 
-<nav class="navbar navbar-expand-lg bg-white shadow-sm">
+<nav class="navbar navbar-expand-lg shadow-sm">
     <div class="container">
-        <a class="navbar-brand fw-bold text-primary" href="index.html">Vertebralis</a>
+        <a class="navbar-brand fw-bold" href="index.html">VERTEBRALIS</a>
         <ul class="navbar-nav ms-auto">
             <li class="nav-item"><a class="nav-link" href="index.html">Início</a></li>
             <li class="nav-item"><a class="nav-link" href="servicos.html">Serviços</a></li>
@@ -22,30 +32,48 @@
 </nav>
 
 <section class="container py-5">
-    <h2 class="text-primary mb-4">Contato</h2>
+    <h2 class="mb-4">Contato</h2>
 
-    <p class="fs-5">
-        <strong>Endereço:</strong> Rua Cento e Trinta e Um, 381 – Loja 01  
-        Santa Maria, Timóteo – MG  
-        CEP 35.180-142
-    </p>
+    <div class="row g-4">
+        <div class="col-md-6">
+            <div class="card shadow-sm p-4 h-100">
+                <h4 class="mb-3">Informações</h4>
+                <p class="fs-5">
+                    <strong>Endereço:</strong><br>
+                    Rua Cento e Trinta e Um, 381 – Loja 01<br>
+                    Bairro Santa Maria, Timóteo – MG<br>
+                    CEP 35.180-142
+                </p>
+                <p class="fs-5">
+                    <strong>Telefones:</strong><br>
+                    (31) 3848-1311<br>
+                    (31) 8555-2327
+                </p>
+                <p class="fs-5">
+                    <strong>E-mail:</strong><br>
+                    clinicavertebralis@outlook.com
+                </p>
+            </div>
+        </div>
 
-    <p class="fs-5">
-        <strong>Telefone:</strong> (31) 3848-1311 / (31) 8555-2327  
-        <br>
-        <strong>E-mail:</strong> clinicavertebralis@outlook.com
-    </p>
-
-    <h4 class="mt-4">Localização</h4>
-    <iframe 
-        src="https://www.google.com/maps?q=Rua%20Cento%20e%20Trinta%20e%20Um%20381%20Timóteo&output=embed"
-        width="100%" height="350" style="border:0;" allowfullscreen>
-    </iframe>
+        <div class="col-md-6">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <h4 class="mb-3">Localização</h4>
+                    <iframe 
+                        src="https://www.google.com/maps?q=Rua%20Cento%20e%20Trinta%20e%20Um%20381%20Timóteo&output=embed"
+                        width="100%" height="320" style="border:0; border-radius:8px;" allowfullscreen>
+                    </iframe>
+                </div>
+            </div>
+        </div>
+    </div>
 </section>
 
-<footer class="bg-primary text-white text-center py-3 mt-5">
-    © Clínica Vertebralis – Todos os direitos reservados
+<footer class="text-white text-center py-3 mt-5">
+    © Clínica Vertebralis – Coluna & Dor • Todos os direitos reservados
 </footer>
 
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
