@@ -25,6 +25,12 @@ body.page-with-fixed-nav {
     color: var(--vertebralis-blue) !important;
 }
 
+.navbar-brand img {
+    height: 42px;
+    width: auto;
+    display: block;
+}
+
 .nav-link {
     color: #555 !important;
 }
