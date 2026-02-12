@@ -1,0 +1,115 @@
+/* Vertebralis – Coluna & Dor – Estilos globais */
+
+:root {
+    --vertebralis-blue: #005b8f;
+    --vertebralis-teal: #00b8a9;
+    --vertebralis-teal-hover: #009688;
+    --bg-body: #f5f7fb;
+    --bg-cta: #e3f6f4;
+}
+
+body {
+    background-color: var(--bg-body);
+}
+
+/* Páginas com navbar fixa (ex.: home) precisam de espaço para não ficar atrás do menu */
+body.page-with-fixed-nav {
+    padding-top: 56px;
+}
+
+.navbar {
+    background-color: #ffffff;
+}
+
+.navbar-brand {
+    color: var(--vertebralis-blue) !important;
+}
+
+.nav-link {
+    color: #555 !important;
+}
+
+.nav-link.active,
+.nav-link:hover {
+    color: var(--vertebralis-blue) !important;
+}
+
+.btn-primary {
+    background-color: var(--vertebralis-teal);
+    border-color: var(--vertebralis-teal);
+}
+
+.btn-primary:hover {
+    background-color: var(--vertebralis-teal-hover);
+    border-color: var(--vertebralis-teal-hover);
+}
+
+h1, h2, h3, h4, h5 {
+    color: var(--vertebralis-blue);
+}
+
+.card {
+    border: none;
+    border-radius: 12px;
+}
+
+.card-img-top {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}
+
+footer {
+    background-color: var(--vertebralis-blue);
+}
+
+/* Hero (apenas na home) */
+.hero {
+    height: 90vh;
+    min-height: 400px;
+    background:
+        linear-gradient(rgba(0, 25, 51, 0.7), rgba(0, 25, 51, 0.7)),
+        url('https://images.unsplash.com/photo-1584466977773-e625c37cdd50') center/cover;
+    color: #ffffff;
+    margin-top: -56px;
+    padding-top: 56px;
+}
+
+/* Serviços: listas */
+.list-group-item {
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+
+.list-group-item:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+.list-group-item:nth-child(even) {
+    background-color: #e9f4ff;
+}
+
+/* Contato: iframe */
+.contact-iframe {
+    border: 0;
+    border-radius: 8px;
+    width: 100%;
+    height: 320px;
+}
+
+/* CTA (call-to-action) */
+.bg-cta {
+    background-color: var(--bg-cta);
+}
+
+/* Links de contato */
+a.tel-link,
+a.mail-link {
+    color: inherit;
+    text-decoration: none;
+}
+
+a.tel-link:hover,
+a.mail-link:hover {
+    text-decoration: underline;
+}

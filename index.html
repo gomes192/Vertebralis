@@ -3,42 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="Clínica Vertebralis – Coluna & Dor em Timóteo, MG. Quiropraxia, Acupuntura, Pilates, Ozonioterapia e recuperação esportiva. Agende sua avaliação.">
     <title>Vertebralis – Coluna & Dor</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-    <style>
-        body { background-color: #f5f7fb; }
-        .navbar { background-color: #ffffff; }
-        .navbar-brand { color: #005b8f !important; }
-        .nav-link { color: #555 !important; }
-        .nav-link.active, .nav-link:hover { color: #005b8f !important; }
-        .btn-primary {
-            background-color: #00b8a9;
-            border-color: #00b8a9;
-        }
-        .btn-primary:hover {
-            background-color: #009688;
-            border-color: #009688;
-        }
-        .hero {
-            height: 90vh;
-            background: linear-gradient(rgba(0, 25, 51, 0.7), rgba(0, 25, 51, 0.7)),
-                        url('https://images.unsplash.com/photo-1584466977773-e625c37cdd50') center/cover;
-            color: #ffffff;
-        }
-        h1, h2, h3, h4, h5 { color: #005b8f; }
-        .card { border: none; border-radius: 12px; }
-        .card-img-top { border-top-left-radius: 12px; border-top-right-radius: 12px; }
-        footer { background-color: #005b8f; }
-    </style>
+    <link href="css/style.css" rel="stylesheet">
 </head>
 
-<body>
+<body class="page-with-fixed-nav">
 
 <!-- NAVBAR -->
-<nav class="navbar navbar-expand-lg shadow-sm fixed-top">
+<nav class="navbar navbar-expand-lg shadow-sm fixed-top" aria-label="Menu principal">
     <div class="container">
         <a class="navbar-brand fw-bold" href="index.html">VERTEBRALIS</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#nav" aria-controls="nav" aria-expanded="false" aria-label="Abrir menu">
             <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="nav">
@@ -52,6 +29,7 @@
     </div>
 </nav>
 
+<main>
 <!-- HERO -->
 <header class="hero d-flex align-items-center text-center">
     <div class="container mt-5">
@@ -126,15 +104,16 @@
 </section>
 
 <!-- CTA -->
-<section class="py-5" style="background-color:#e3f6f4;">
+<section class="py-5 bg-cta">
     <div class="container text-center">
         <h2 class="mb-3">Pronto para dar o próximo passo?</h2>
         <p class="fs-5 mb-4">Agende uma avaliação e comece sua jornada de volta ao movimento e bem-estar.</p>
         <a href="contato.html" class="btn btn-primary btn-lg">Agendar agora</a>
     </div>
 </section>
+</main>
 
-<footer class="text-white text-center py-3 mt-0">
+<footer class="text-white text-center py-4 mt-0">
     © Clínica Vertebralis – Coluna & Dor • Todos os direitos reservados
 </footer>
 
