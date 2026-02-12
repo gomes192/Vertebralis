@@ -1,0 +1,12 @@
+/* Base – body and layout utilities */
+body {
+    background-color: var(--bg-body);
+}
+
+body.page-with-fixed-nav {
+    padding-top: 56px;
+}
+
+h1, h2, h3, h4, h5 {
+    color: var(--vertebralis-blue);
+}

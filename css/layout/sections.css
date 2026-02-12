@@ -1,0 +1,36 @@
+/* Section utilities */
+.bg-cta {
+    background-color: var(--bg-cta);
+}
+
+.list-group-item {
+    border: none;
+    border-radius: 8px;
+    margin-bottom: 8px;
+}
+
+.list-group-item:nth-child(odd) {
+    background-color: #ffffff;
+}
+
+.list-group-item:nth-child(even) {
+    background-color: #e9f4ff;
+}
+
+.contact-iframe {
+    border: 0;
+    border-radius: 8px;
+    width: 100%;
+    height: 320px;
+}
+
+a.tel-link,
+a.mail-link {
+    color: inherit;
+    text-decoration: none;
+}
+
+a.tel-link:hover,
+a.mail-link:hover {
+    text-decoration: underline;
+}

@@ -1,0 +1,37 @@
+{
+  "site": {
+    "name": "Vertebralis",
+    "tagline": "Coluna & Dor",
+    "fullName": "Clínica Vertebralis – Coluna & Dor",
+    "logoAlt": "Vertebralis – Tratamento da Coluna e Dor"
+  },
+  "nav": [
+    { "id": "index", "href": "index.html", "label": "Início" },
+    { "id": "servicos", "href": "servicos.html", "label": "Serviços" },
+    { "id": "equipe", "href": "equipe.html", "label": "Equipe" },
+    { "id": "contato", "href": "contato.html", "label": "Contato" }
+  ],
+  "contact": {
+    "cnpj": "24.889.710/0001-82",
+    "razaoSocial": "Clínica Vertebralis LTDA",
+    "address": {
+      "street": "Rua Cento e Trinta e Um, 381 – Loja 01",
+      "neighborhood": "Bairro Santa Maria",
+      "city": "Timóteo – MG",
+      "cep": "35.180-142"
+    },
+    "phones": [
+      { "display": "(31) 3848-1311", "tel": "+553138481311" },
+      { "display": "(31) 8555-2327", "tel": "+553185552327" }
+    ],
+    "email": "clinicavertebralis@outlook.com",
+    "mapEmbedUrl": "https://www.google.com/maps?q=Rua%20Cento%20e%20Trinta%20e%20Um%20381%20Timóteo&output=embed",
+    "mapTitle": "Mapa: Clínica Vertebralis – Rua Cento e Trinta e Um, 381, Timóteo, MG",
+    "situacaoCadastral": "Ativa",
+    "abertura": "30/05/2016",
+    "porte": "ME"
+  },
+  "footer": {
+    "text": "© Clínica Vertebralis – Coluna & Dor • Todos os direitos reservados"
+  }
+}

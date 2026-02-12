@@ -1,0 +1,10 @@
+/* Cards */
+.card {
+    border: none;
+    border-radius: 12px;
+}
+
+.card-img-top {
+    border-top-left-radius: 12px;
+    border-top-right-radius: 12px;
+}

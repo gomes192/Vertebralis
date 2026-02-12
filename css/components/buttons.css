@@ -1,0 +1,10 @@
+/* Buttons */
+.btn-primary {
+    background-color: var(--vertebralis-teal);
+    border-color: var(--vertebralis-teal);
+}
+
+.btn-primary:hover {
+    background-color: var(--vertebralis-teal-hover);
+    border-color: var(--vertebralis-teal-hover);
+}

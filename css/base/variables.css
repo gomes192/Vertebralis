@@ -1,0 +1,8 @@
+/* Design tokens – single source for colors and spacing */
+:root {
+    --vertebralis-blue: #005b8f;
+    --vertebralis-teal: #00b8a9;
+    --vertebralis-teal-hover: #009688;
+    --bg-body: #f5f7fb;
+    --bg-cta: #e3f6f4;
+}

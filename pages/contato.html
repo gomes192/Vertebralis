@@ -1,0 +1,26 @@
+<main>
+<section class="container py-5">
+    <h1 class="mb-4">Contato</h1>
+    <div class="row g-4">
+        <div class="col-md-6">
+            <div class="card shadow-sm p-4 h-100">
+                <h2 class="h4 mb-3">Informações</h2>
+                <p class="fs-5 mb-2"><strong>CNPJ:</strong><br>{{cnpj}}</p>
+                <p class="fs-5 mb-2"><strong>Razão Social:</strong><br>{{razaoSocial}}</p>
+                <p class="fs-5 mb-2"><strong>Endereço:</strong><br>{{address}}</p>
+                <p class="fs-5 mb-2"><strong>Telefones:</strong><br>{{phones}}</p>
+                <p class="fs-5 mb-2"><strong>E-mail:</strong><br>{{email}}</p>
+                <p class="fs-6 text-muted mt-3">{{cadastral}}</p>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card shadow-sm h-100">
+                <div class="card-body">
+                    <h2 class="h4 mb-3">Localização</h2>
+                    <iframe class="contact-iframe" src="{{mapEmbedUrl}}" title="{{mapTitle}}" allowfullscreen loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+</main>

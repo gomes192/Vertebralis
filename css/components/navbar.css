@@ -1,0 +1,23 @@
+/* Navbar component */
+.navbar {
+    background-color: #ffffff;
+}
+
+.navbar-brand {
+    color: var(--vertebralis-blue) !important;
+}
+
+.navbar-brand img {
+    height: 42px;
+    width: auto;
+    display: block;
+}
+
+.nav-link {
+    color: #555 !important;
+}
+
+.nav-link.active,
+.nav-link:hover {
+    color: var(--vertebralis-blue) !important;
+}

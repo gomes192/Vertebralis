@@ -1,0 +1,8 @@
+{
+  "name": "vertebralis",
+  "description": "Site da Clínica Vertebralis – Coluna & Dor",
+  "private": true,
+  "scripts": {
+    "build": "node build.js"
+  }
+}
