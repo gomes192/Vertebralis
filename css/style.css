@@ -1,7 +1,9 @@
 /**
  * Vertebralis – Coluna & Dor
  * Main stylesheet: aggregates base, components, and layout (Clean Architecture).
+ * Image URLs come from data/site.json → generated/images.css
  */
+@import url('generated/images.css');
 @import url('base/variables.css');
 @import url('base/base.css');
 @import url('components/navbar.css');

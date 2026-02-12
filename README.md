@@ -30,6 +30,7 @@ Os arquivos HTML na raiz (`index.html`, `contato.html`, etc.) são **gerados** p
 ## Como alterar
 
 - **Texto do menu, contato ou rodapé** → edite `data/site.json` e rode `npm run build`.
+- **URLs das imagens** → edite a seção `images` em `data/site.json` (hero, about, quiropraxia, acupuntura, pilates) e rode `npm run build`.
 - **Conteúdo de uma página** → edite o arquivo correspondente em `pages/` e rode `npm run build`.
 - **Layout (nav/rodapé)** → edite os arquivos em `templates/`.
 - **Estilos** → edite os arquivos em `css/base/`, `css/components/` ou `css/layout/`.

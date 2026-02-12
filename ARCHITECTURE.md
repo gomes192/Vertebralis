@@ -30,8 +30,9 @@ This repository follows a **Clean Architecture** approach adapted for a static w
   - Navigation items (id, href, label)
   - Contact info (CNPJ, address, phones, email, map)
   - Footer text
+  - **Image URLs** (`images`): `hero`, `about`, `quiropraxia`, `acupuntura`, `pilates`. Change these to update all images site-wide; then run `node build.js`.
 
-**Rule:** Any change to nav, contact, or footer text is done here only. The build uses this file to generate HTML.
+**Rule:** Any change to nav, contact, footer, or image URLs is done here only. The build uses this file to generate HTML and `css/generated/images.css`.
 
 ### 2. Presentation layer
 

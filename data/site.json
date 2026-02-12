@@ -33,5 +33,12 @@
   },
   "footer": {
     "text": "© Clínica Vertebralis – Coluna & Dor • Todos os direitos reservados"
+  },
+  "images": {
+    "hero": "https://images.unsplash.com/photo-1579684385127-1ef15d508118",
+    "about": "https://images.unsplash.com/photo-1579684385127-1ef15d508118",
+    "quiropraxia": "https://images.unsplash.com/photo-1706353399656-210cca727a33",
+    "acupuntura": "https://images.unsplash.com/photo-1598555763574-dca77e10427e",
+    "pilates": "https://images.unsplash.com/photo-1518611012118-696072aa579a"
   }
 }

@@ -1,10 +1,10 @@
-/* Hero – home page only */
+/* Hero – home page only. Image URL from data/site.json → images.hero (see css/generated/images.css) */
 .hero {
     height: 90vh;
     min-height: 400px;
     background:
         linear-gradient(rgba(0, 25, 51, 0.7), rgba(0, 25, 51, 0.7)),
-        url('https://images.unsplash.com/photo-1579684385127-1ef15d508118') center/cover;
+        var(--hero-image) center/cover;
     color: #ffffff;
     margin-top: -56px;
     padding-top: 56px;
